@@ -1,0 +1,5 @@
+.container{border: 20px double rgb(255, 0, 191);}
+.container h1{text-transform: uppercase;}
+main > h1{color: rgba(160, 63, 18, 0.096);}
+h1{text-transform: capitalize;}
+        
