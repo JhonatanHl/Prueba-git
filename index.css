@@ -1,5 +1,35 @@
-.container{border: 20px double rgb(255, 0, 191);}
-.container h1{text-transform: uppercase;}
-main > h1{color: rgba(160, 63, 18, 0.096);}
-h1{text-transform: capitalize;}
-        
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+.container {
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: auto;
+  background-color: rgb(5, 7, 6);
+}
+
+.container :nth-child(1) {
+  background: rgb(42, 5, 250);
+
+  width: 1000px;
+}
+.container :nth-child(2) {
+  background: rgb(241, 38, 38);
+
+  width: 1000px;
+}
+.container :nth-child(3) {
+  background: rgb(62, 185, 45);
+
+  width: 1000px;
+}
+.container :nth-child(4) {
+  background: rgb(30, 133, 133);
+  height: fit-content;
+  width: 1000px;
+}
